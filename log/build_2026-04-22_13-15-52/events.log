@@ -1,0 +1,99 @@
+[0.000000] (-) TimerEvent: {}
+[0.000231] (drone_pkg) JobQueued: {'identifier': 'drone_pkg', 'dependencies': OrderedDict()}
+[0.000543] (drone_pkg) JobStarted: {'identifier': 'drone_pkg'}
+[0.010607] (drone_pkg) JobProgress: {'identifier': 'drone_pkg', 'progress': 'cmake'}
+[0.011314] (drone_pkg) JobProgress: {'identifier': 'drone_pkg', 'progress': 'build'}
+[0.011878] (drone_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rooks/projects/ros2_ws/build/drone_pkg', '--', '-j16', '-l16'], 'cwd': '/home/rooks/projects/ros2_ws/build/drone_pkg', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'rooks', 'GIT_ASKPASS': '/home/rooks/.vscode-server/bin/072586267e68ece9a47aa43f8c108e0dcbf44622/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/rooks', 'TERM_PROGRAM_VERSION': '1.109.5', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-fd9603c1-b3f8-4238-9520-b5cfa7371c02.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/rooks/.vscode-server/bin/072586267e68ece9a47aa43f8c108e0dcbf44622/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/rooks/.vscode-server/bin/072586267e68ece9a47aa43f8c108e0dcbf44622/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'rooks', 'NAME': 'Code', 'WSL_INTEROP': '/run/WSL/467_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/rooks/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/rooks/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/rooks/.vscode-server/bin/072586267e68ece9a47aa43f8c108e0dcbf44622/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/Matth/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand:/mnt/c/Users/Matth/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli:/mnt/c/Users/Matth/AppData/Local/Programs/Microsoft VS Code:/mnt/c/Python314/Scripts/:/mnt/c/Python314/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/MATLAB/R2023b/bin:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/GitExtensions/:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Arduino CLI/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Users/Matth/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/Matth/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Matth/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Matth/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/Matth/AppData/Roaming/npm:/mnt/c/Coding/flutter/bin:/mnt/c/Users/Matth/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-25f52ec327.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/rooks/projects/ros2_ws/build/drone_pkg', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'ELECTRON_RUN_AS_NODE/w:'}), 'shell': False}
+[0.060920] (drone_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.099977] (-) TimerEvent: {}
+[0.200160] (-) TimerEvent: {}
+[0.231743] (drone_pkg) StdoutLine: {'line': b'-- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.300249] (-) TimerEvent: {}
+[0.370302] (drone_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.382405] (drone_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.400331] (-) TimerEvent: {}
+[0.400530] (drone_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.417107] (drone_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.486373] (drone_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.489449] (drone_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.500421] (-) TimerEvent: {}
+[0.568672] (drone_pkg) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[0.600523] (-) TimerEvent: {}
+[0.700698] (-) TimerEvent: {}
+[0.713211] (drone_pkg) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[0.800796] (-) TimerEvent: {}
+[0.803167] (drone_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.900885] (-) TimerEvent: {}
+[0.975336] (drone_pkg) StdoutLine: {'line': b'-- Found std_msgs: 5.3.7 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[0.988182] (drone_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[1.001013] (-) TimerEvent: {}
+[1.057862] (drone_pkg) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.058017] (drone_pkg) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/rooks/projects/ros2_ws/src/drone_pkg/include>\n'}
+[1.058069] (drone_pkg) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.058658] (drone_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.059706] (drone_pkg) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.059776] (drone_pkg) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.060109] (drone_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.061621] (drone_pkg) StdoutLine: {'line': b'-- Configuring done (1.0s)\n'}
+[1.075804] (drone_pkg) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.079231] (drone_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/rooks/projects/ros2_ws/build/drone_pkg\n'}
+[1.101098] (-) TimerEvent: {}
+[1.113472] (drone_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/drone_node.dir/src/drone_node.cpp.o\x1b[0m\n'}
+[1.201197] (-) TimerEvent: {}
+[1.301411] (-) TimerEvent: {}
+[1.401633] (-) TimerEvent: {}
+[1.501871] (-) TimerEvent: {}
+[1.602098] (-) TimerEvent: {}
+[1.702363] (-) TimerEvent: {}
+[1.802619] (-) TimerEvent: {}
+[1.902855] (-) TimerEvent: {}
+[2.003138] (-) TimerEvent: {}
+[2.103418] (-) TimerEvent: {}
+[2.203677] (-) TimerEvent: {}
+[2.303939] (-) TimerEvent: {}
+[2.404233] (-) TimerEvent: {}
+[2.504518] (-) TimerEvent: {}
+[2.604807] (-) TimerEvent: {}
+[2.705066] (-) TimerEvent: {}
+[2.805349] (-) TimerEvent: {}
+[2.905623] (-) TimerEvent: {}
+[3.005893] (-) TimerEvent: {}
+[3.106163] (-) TimerEvent: {}
+[3.206436] (-) TimerEvent: {}
+[3.306706] (-) TimerEvent: {}
+[3.406986] (-) TimerEvent: {}
+[3.507274] (-) TimerEvent: {}
+[3.607567] (-) TimerEvent: {}
+[3.707827] (-) TimerEvent: {}
+[3.808068] (-) TimerEvent: {}
+[3.908325] (-) TimerEvent: {}
+[4.008589] (-) TimerEvent: {}
+[4.073614] (drone_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable drone_node\x1b[0m\n'}
+[4.108684] (-) TimerEvent: {}
+[4.208914] (-) TimerEvent: {}
+[4.290176] (drone_pkg) StdoutLine: {'line': b'[100%] Built target drone_node\n'}
+[4.300458] (drone_pkg) CommandEnded: {'returncode': 0}
+[4.300980] (drone_pkg) JobProgress: {'identifier': 'drone_pkg', 'progress': 'install'}
+[4.308977] (drone_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rooks/projects/ros2_ws/build/drone_pkg'], 'cwd': '/home/rooks/projects/ros2_ws/build/drone_pkg', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'rooks', 'GIT_ASKPASS': '/home/rooks/.vscode-server/bin/072586267e68ece9a47aa43f8c108e0dcbf44622/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/rooks', 'TERM_PROGRAM_VERSION': '1.109.5', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-fd9603c1-b3f8-4238-9520-b5cfa7371c02.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/rooks/.vscode-server/bin/072586267e68ece9a47aa43f8c108e0dcbf44622/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/rooks/.vscode-server/bin/072586267e68ece9a47aa43f8c108e0dcbf44622/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'rooks', 'NAME': 'Code', 'WSL_INTEROP': '/run/WSL/467_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/rooks/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/rooks/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/rooks/.vscode-server/bin/072586267e68ece9a47aa43f8c108e0dcbf44622/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/Matth/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand:/mnt/c/Users/Matth/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli:/mnt/c/Users/Matth/AppData/Local/Programs/Microsoft VS Code:/mnt/c/Python314/Scripts/:/mnt/c/Python314/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/MATLAB/R2023b/bin:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/GitExtensions/:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Arduino CLI/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Users/Matth/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/Matth/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Matth/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Matth/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/Matth/AppData/Roaming/npm:/mnt/c/Coding/flutter/bin:/mnt/c/Users/Matth/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-25f52ec327.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/rooks/projects/ros2_ws/build/drone_pkg', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'ELECTRON_RUN_AS_NODE/w:'}), 'shell': False}
+[4.309380] (-) TimerEvent: {}
+[4.315273] (drone_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.316127] (drone_pkg) StdoutLine: {'line': b'-- Installing: /home/rooks/projects/ros2_ws/install/drone_pkg/lib/drone_pkg/drone_node\n'}
+[4.317910] (drone_pkg) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/rooks/projects/ros2_ws/install/drone_pkg/lib/drone_pkg/drone_node" to ""\n'}
+[4.318852] (drone_pkg) StdoutLine: {'line': b'-- Installing: /home/rooks/projects/ros2_ws/install/drone_pkg/share/ament_index/resource_index/package_run_dependencies/drone_pkg\n'}
+[4.319286] (drone_pkg) StdoutLine: {'line': b'-- Installing: /home/rooks/projects/ros2_ws/install/drone_pkg/share/ament_index/resource_index/parent_prefix_path/drone_pkg\n'}
+[4.319928] (drone_pkg) StdoutLine: {'line': b'-- Installing: /home/rooks/projects/ros2_ws/install/drone_pkg/share/drone_pkg/environment/ament_prefix_path.sh\n'}
+[4.320137] (drone_pkg) StdoutLine: {'line': b'-- Installing: /home/rooks/projects/ros2_ws/install/drone_pkg/share/drone_pkg/environment/ament_prefix_path.dsv\n'}
+[4.320289] (drone_pkg) StdoutLine: {'line': b'-- Installing: /home/rooks/projects/ros2_ws/install/drone_pkg/share/drone_pkg/environment/path.sh\n'}
+[4.320452] (drone_pkg) StdoutLine: {'line': b'-- Installing: /home/rooks/projects/ros2_ws/install/drone_pkg/share/drone_pkg/environment/path.dsv\n'}
+[4.320625] (drone_pkg) StdoutLine: {'line': b'-- Installing: /home/rooks/projects/ros2_ws/install/drone_pkg/share/drone_pkg/local_setup.bash\n'}
+[4.320819] (drone_pkg) StdoutLine: {'line': b'-- Installing: /home/rooks/projects/ros2_ws/install/drone_pkg/share/drone_pkg/local_setup.sh\n'}
+[4.320974] (drone_pkg) StdoutLine: {'line': b'-- Installing: /home/rooks/projects/ros2_ws/install/drone_pkg/share/drone_pkg/local_setup.zsh\n'}
+[4.321099] (drone_pkg) StdoutLine: {'line': b'-- Installing: /home/rooks/projects/ros2_ws/install/drone_pkg/share/drone_pkg/local_setup.dsv\n'}
+[4.321241] (drone_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/rooks/projects/ros2_ws/install/drone_pkg/share/drone_pkg/package.dsv\n'}
+[4.321582] (drone_pkg) StdoutLine: {'line': b'-- Installing: /home/rooks/projects/ros2_ws/install/drone_pkg/share/ament_index/resource_index/packages/drone_pkg\n'}
+[4.322031] (drone_pkg) StdoutLine: {'line': b'-- Installing: /home/rooks/projects/ros2_ws/install/drone_pkg/share/drone_pkg/cmake/drone_pkgConfig.cmake\n'}
+[4.322200] (drone_pkg) StdoutLine: {'line': b'-- Installing: /home/rooks/projects/ros2_ws/install/drone_pkg/share/drone_pkg/cmake/drone_pkgConfig-version.cmake\n'}
+[4.322371] (drone_pkg) StdoutLine: {'line': b'-- Installing: /home/rooks/projects/ros2_ws/install/drone_pkg/share/drone_pkg/package.xml\n'}
+[4.323981] (drone_pkg) CommandEnded: {'returncode': 0}
+[4.337462] (drone_pkg) JobEnded: {'identifier': 'drone_pkg', 'rc': 0}
+[4.338108] (-) EventReactorShutdown: {}

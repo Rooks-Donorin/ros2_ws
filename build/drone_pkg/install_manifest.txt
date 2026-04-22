@@ -1,0 +1,17 @@
+/home/rooks/projects/ros2_ws/install/drone_pkg/lib/drone_pkg/drone_node
+/home/rooks/projects/ros2_ws/install/drone_pkg/lib/drone_pkg/battery_monitor
+/home/rooks/projects/ros2_ws/install/drone_pkg/share/ament_index/resource_index/package_run_dependencies/drone_pkg
+/home/rooks/projects/ros2_ws/install/drone_pkg/share/ament_index/resource_index/parent_prefix_path/drone_pkg
+/home/rooks/projects/ros2_ws/install/drone_pkg/share/drone_pkg/environment/ament_prefix_path.sh
+/home/rooks/projects/ros2_ws/install/drone_pkg/share/drone_pkg/environment/ament_prefix_path.dsv
+/home/rooks/projects/ros2_ws/install/drone_pkg/share/drone_pkg/environment/path.sh
+/home/rooks/projects/ros2_ws/install/drone_pkg/share/drone_pkg/environment/path.dsv
+/home/rooks/projects/ros2_ws/install/drone_pkg/share/drone_pkg/local_setup.bash
+/home/rooks/projects/ros2_ws/install/drone_pkg/share/drone_pkg/local_setup.sh
+/home/rooks/projects/ros2_ws/install/drone_pkg/share/drone_pkg/local_setup.zsh
+/home/rooks/projects/ros2_ws/install/drone_pkg/share/drone_pkg/local_setup.dsv
+/home/rooks/projects/ros2_ws/install/drone_pkg/share/drone_pkg/package.dsv
+/home/rooks/projects/ros2_ws/install/drone_pkg/share/ament_index/resource_index/packages/drone_pkg
+/home/rooks/projects/ros2_ws/install/drone_pkg/share/drone_pkg/cmake/drone_pkgConfig.cmake
+/home/rooks/projects/ros2_ws/install/drone_pkg/share/drone_pkg/cmake/drone_pkgConfig-version.cmake
+/home/rooks/projects/ros2_ws/install/drone_pkg/share/drone_pkg/package.xml
