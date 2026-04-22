@@ -1,4 +1,0 @@
-Invoking command in '/home/rooks/projects/ros2_ws/build/drone_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/rooks/projects/ros2_ws/src/drone_pkg -DCMAKE_INSTALL_PREFIX=/home/rooks/projects/ros2_ws/install/drone_pkg
-Invoked command in '/home/rooks/projects/ros2_ws/build/drone_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/rooks/projects/ros2_ws/src/drone_pkg -DCMAKE_INSTALL_PREFIX=/home/rooks/projects/ros2_ws/install/drone_pkg
-Invoking command in '/home/rooks/projects/ros2_ws/build/drone_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/rooks/projects/ros2_ws/build/drone_pkg -- -j16 -l16
-Invoked command in '/home/rooks/projects/ros2_ws/build/drone_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/rooks/projects/ros2_ws/build/drone_pkg -- -j16 -l16
