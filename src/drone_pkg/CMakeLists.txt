@@ -9,14 +9,20 @@ endif()
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
+find_package(std_srvs REQUIRED)
 # uncomment the following section in order to fill in
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
 
 add_executable(drone_node src/drone_node.cpp)
 ament_target_dependencies(drone_node rclcpp std_msgs)
+
 add_executable(battery_monitor src/battery_monitor.cpp)
 ament_target_dependencies(battery_monitor rclcpp std_msgs)
+
+add_executable(arm_service src/arm_service.cpp)
+ament_target_dependencies(arm_service rclcpp std_srvs)
+
 target_include_directories(drone_node PUBLIC
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
   $<INSTALL_INTERFACE:include/${PROJECT_NAME}>)
@@ -25,6 +31,7 @@ target_compile_features(drone_node PUBLIC c_std_99 cxx_std_17)  # Require C99 an
 install(TARGETS
   drone_node
   battery_monitor
+  arm_service
   DESTINATION lib/${PROJECT_NAME})
 
 if(BUILD_TESTING)
