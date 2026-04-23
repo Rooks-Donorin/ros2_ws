@@ -10,6 +10,11 @@ A two-node ROS2 system simulating drone telemetry.
 - **drone_node** -- publishes battery level to '/battery_level' topic at 1hz
 - **battery_monitor** -- subscribes to '/battery_level' and logs OK, LOW, and CRITICAL status
 
+### flight_status_pkg
+- **flight_status_node** -- Python node that subscribes to '/battery_level' and 
+publishes human-readable flight status to '/flight_status' at 2hz
+
+
 ## Building
 
 '''bash
