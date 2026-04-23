@@ -33,3 +33,9 @@ ros2 run drone_pkg drone_node
 Terminal 2:
 '''bash
 ros2 run drone_pkg battery_monitor
+
+## Simulation Environment
+
+- PX4 SITL with Gazebo -- X500 quadcopter simulation
+- Flight tested: arm, takeoff, hold, land via PX4 shell
+- Next step: connnecting ROS2 nodes to PX4  via micro-XRCE-DDS bridge
