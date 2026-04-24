@@ -10,6 +10,8 @@ find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(std_srvs REQUIRED)
+find_package(px4_msgs REQUIRED)
+
 # uncomment the following section in order to fill in
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
@@ -23,6 +25,9 @@ ament_target_dependencies(battery_monitor rclcpp std_msgs)
 add_executable(arm_service src/arm_service.cpp)
 ament_target_dependencies(arm_service rclcpp std_srvs)
 
+add_executable(px4_monitor src/px4_monitor.cpp)
+ament_target_dependencies(px4_monitor rclcpp px4_msgs)
+
 target_include_directories(drone_node PUBLIC
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
   $<INSTALL_INTERFACE:include/${PROJECT_NAME}>)
@@ -32,6 +37,7 @@ install(TARGETS
   drone_node
   battery_monitor
   arm_service
+  px4_monitor
   DESTINATION lib/${PROJECT_NAME})
 
 if(BUILD_TESTING)
